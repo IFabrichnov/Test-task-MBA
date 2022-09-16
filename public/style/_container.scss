@@ -1,0 +1,11 @@
+.container {
+    margin: 0 auto;
+    max-width: 1286px;
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        width: 345px;
+        margin: 28px 15px 47px 15px;
+    }
+}
